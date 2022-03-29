@@ -2,7 +2,7 @@
 
 class Trip {
   constructor(title) {
-    this.title = title;
+    this.trip_title = title;
     this.members = [];
     this.addMembers = function (member_name) {
       this.members.push(member_name);

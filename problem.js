@@ -58,22 +58,22 @@ function valueSplit(person, expenses, members) {
 //calling main function to add
 
 function mainFunction() {
+  //adding members
   let m4 = new Members("Anthony");
   let m5 = new Members("Michael");
   let m6 = new Members("Rucha");
   let m7 = new Members("Rucha");
-
+  // checking the members present already or not if not then adding
   toCheckExistorNot(m4);
   toCheckExistorNot(m5);
   toCheckExistorNot(m6);
   toCheckExistorNot(m7);
-
+  // managing expenses
   valueSplit("Anthony", 30, 3);
   valueSplit("Michael", 30, 3);
   valueSplit("Rucha", 30, 3);
-
+  // showing the output
   console.log(trip);
-  console.log(trip.members);
   console.log(whoTogiveWhom);
 }
 
